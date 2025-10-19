@@ -22,7 +22,7 @@ This repository contains code, data and trained models for an Artificial Neural 
 2. Run the app (example):
 Open the URL printed by app.py (see app.py for how the app serves the model).
 
-3.Notebooks
+3. Notebooks
 Open the notebooks in Jupyter / VS Code to reproduce experiments:
 experiments.ipynb
 hyperparametertuningann.ipynb
