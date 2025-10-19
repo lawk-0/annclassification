@@ -34,8 +34,4 @@ Raw dataset: Churn_Modelling.csv.
 Notes
 Inspect app.py to see how the model is loaded and served.
 Use requirements.txt to reproduce the environment.
-```sh
-python -m venv .venv
-source .venv/bin/activate   # on Windows: .venv\Scripts\activate
-pip install -r requirements.txt
-```
+
