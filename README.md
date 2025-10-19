@@ -19,6 +19,21 @@ This repository contains code, data and trained models for an Artificial Neural 
 
 1. Create a virtual environment and install dependencies:
 
+2. Run the app (example):
+Open the URL printed by app.py (see app.py for how the app serves the model).
+
+3.Notebooks
+Open the notebooks in Jupyter / VS Code to reproduce experiments:
+experiments.ipynb
+hyperparametertuningann.ipynb
+prediction.ipynb
+salaryregression.ipynb
+Model and data
+Trained model: model.h5. Load with Keras/TensorFlow (see prediction.ipynb).
+Raw dataset: Churn_Modelling.csv.
+Notes
+Inspect app.py to see how the model is loaded and served.
+Use requirements.txt to reproduce the environment.
 ```sh
 python -m venv .venv
 source .venv/bin/activate   # on Windows: .venv\Scripts\activate
